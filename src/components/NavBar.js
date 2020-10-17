@@ -42,7 +42,7 @@ const LinksContainer = styled.div`
 const NavLink = styled.a`
   color: #000;
   text-decoration: none;
-  margin: 2rem;
+  margin: 0.5rem;
   font-size: 1.5rem;
 
   &:hover {
@@ -64,9 +64,12 @@ const NavBar = () => (
           href={link.href}
         >
           {link.label}
+      
         </NavLink>
       ))}
+      
     </LinksContainer>
+    
   </StyledNav>
 );
 

@@ -9,14 +9,14 @@ import {
   FaDev,
 } from 'react-icons/fa'
 
+
 import Section from './Section'
 import SocialMedia from './SocialMedia'
 
 const MY_LINKEDIN = 'https://www.linkedin.com/in/ferozmuhaiyadeen/'
 const MY_GITHUB = 'https://github.com/ferozmuhaiyadeen'
 const MY_GMAIL = 'ferozmuhaiyadeen@gmail.com'
-//const MY_TWITTER = 'https://twitter.com/facosta_marina'
-//const MY_DEV = 'https://dev.to/marinafroes'
+
 
 const Mailbox = styled.div`
 align items: left;

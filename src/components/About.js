@@ -1,9 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import Icon from '../components/SocialMedia'
 import Section from './Section'
 import MyPic from '../assets/images/download.JPEG'
 import SkillsContainer from './SkillsContainer'
+
+const MY_BLOG ='https://solosoul.herokuapp.com'
+
 
 const AboutMeContainer = styled.div`
   box-shadow: 4px 3px 14px 0 rgba(179, 179, 204, 1);
@@ -122,7 +125,11 @@ const About = () => (
           Love to develop a full stack site from scratch, preferably MERN Stack, which is currently my favourite pass time.
 
           </Paragraph>
-          <Paragraph>Be my guest to view my Portfolio.</Paragraph>
+          <Paragraph>
+          Here's my Blog <a href={MY_BLOG}>Click here!</a>
+       
+        
+          </Paragraph>
         </Info>
         <Skills>
           <Heading>Main skills</Heading>

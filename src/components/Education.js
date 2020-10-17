@@ -1,6 +1,7 @@
 import React, { Component, useReducer } from 'react';
 import Widecard from './Widecard';
 import Section from './Section'
+import Awards from '../components/awards'
 //import Certifications from './Certifications'
 import styled from 'styled-components'
 import collegeicon from '../assets/images/college_logo.png';
@@ -80,6 +81,9 @@ class Education extends Component {
             </UserDiv>
             
             <Widecard title="SSLC | HSC" where="Zion Matriculation Higher Secondary School" logo= {<a href="http://www.zionschool.ac.in/"><img alt="zion" src={schoolicon} className="schoollogo"></img></a>} from="2010" to="2014"/>
+            <UserDiv></UserDiv>
+        <Widecard title="Awards/Recognition" where={<Awards/>} from="2014" to="2018" />
+
             
             </AboutMeText>
             

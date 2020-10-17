@@ -13,7 +13,7 @@ export const PROJECTS_INFO = [
     technologies: 'HTML/CSS, JS, PHP, MySQL'
   },
   {
-    title: "My-Blog - Personal Blog created during my React training",
+    title: "Solo Soul - My Personal Blog",
     src: `${myblog}`,
     alt: "Screenshot of my-blog",
     link: "/my-blog",
