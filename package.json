@@ -1,0 +1,48 @@
+{
+  "name": "feroz-muhaiyadeen",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "",
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "emailjs-com": "^2.6.3",
+    "gh-pages": "^2.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
+    "react-rotating-text": "^1.4.1",
+    "react-scripts": "^3.4.3",
+    "react-timeline-scribble": "^1.0.14",
+    "react-toastify": "^6.0.9",
+    "styled-components": "^4.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@iconify/icons-simple-icons": "^1.0.6",
+    "@iconify/react": "^1.1.1"
+  }
+}
