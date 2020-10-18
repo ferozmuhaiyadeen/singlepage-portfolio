@@ -40,9 +40,6 @@ function App() {
 
           f = cleanData(f);
           ip = cleanData(ip);
-          console.log("hello");
-console.log(f);
-console.log(ip);
           setFingerprint(f);
           setIpData(ip);
           setShowReport(false);
